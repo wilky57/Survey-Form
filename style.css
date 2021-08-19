@@ -1,0 +1,62 @@
+
+body {
+  background-color: #2E2966;
+  font-family: tahoma, helvetica, sans-serif;
+}
+header {
+  text-align: center;
+  color: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 10px auto;
+  height: 75%;
+  background-color: rgb(185, 179, 255, .3);
+  color: white;
+  padding: 2rem;
+  border-radius: 2.5rem;
+  max-width: 100%;
+  height: auto;
+}
+
+label {
+  
+  color: white;
+  font-family: Tahoma, helvetica, sans-serif;
+  font-size: 1.25em;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+@media (max-width: 900px) {
+  form {
+    width: 90%;
+      height:auto;
+    margin: auto;
+    
+  }
+  .input-textarea {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.input-textarea {
+  width: 34.89em;
+  height: 10em;
+}
+
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.check {
+  display: block;
+}

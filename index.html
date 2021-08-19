@@ -1,0 +1,114 @@
+<header>
+  <h1 id="title">Literature Survey Form</h1>
+  <p id="description">We want to get to know your literary tastes</p>
+</header>
+<form id="survey-form">
+  <label for="name" id="name-label">Name:</label>
+  <input id="name" type="text" required placeholder="Enter your name">
+  <label for="email" id="email-label">Email:</label>
+  <input id="email" type="email" required placeholder="Enter your email">
+  <label for="number" id="number-label">Age (optional)</label>
+  <input id="number" type="number" min="13" max="100" placeholder="Age">
+  <label for="dropdown">How many books do you read in a year?</label>
+  <select id="dropdown" name="dropdown">
+     <option value="None">0</option>
+  <option value="a-few">1-5</option>
+  <option value="alot">5+</option>
+  </select>
+  <div class="radio-field">
+    <label>How often do you read?</label><br>
+  <input id="daily" type="radio" name="frequency" value="daily">
+         <label for="daily">Every Day</label><br>
+     <input id="weekly" type="radio" name="frequency" value="weekly">
+         <label for="weekly">Twice a week</label><br>
+     <input id="monthly" type="radio" name="frequency" value="monthly">
+         <label for="monthly">Once a month</label>
+  </div>
+  <div class="checkbox">
+    <p>What are your favorite genres? Choose (all that apply)</p>
+    <label class="check"
+        ><input
+          name="prefer"
+          value="classics"
+          type="checkbox"
+          class="input-checkbox"
+        />Classics</label
+      >
+      <label class="check">
+        <input
+          name="prefer"
+          value="scifi"
+          type="checkbox"
+          class="input-checkbox"
+        />Science Fiction</label
+      >
+      <label class="check"
+        ><input
+          name="prefer"
+          value="fantasy"
+          type="checkbox"
+          class="input-checkbox"
+        />Fantasy</label
+      >
+      <label class="check"
+        ><input
+          name="prefer"
+          value="poetry"
+          type="checkbox"
+          class="input-checkbox"
+        />Poetry</label
+      >
+      <label class="check"
+        ><input
+          name="prefer"
+          value="romance"
+          type="checkbox"
+          class="input-checkbox"
+        />Romance</label
+      >
+      <label class="check"
+        ><input
+          name="prefer"
+          value="lgbtq"
+          type="checkbox"
+          class="input-checkbox"
+        />LGBTQ+</label
+      >
+      <label class="check"
+        ><input
+          name="horror"
+          value="videos"
+          type="checkbox"
+          class="input-checkbox"
+        />Horror</label
+      >
+      <label class="check"
+        ><input
+          name="CoA"
+          value="city-meetups"
+          type="checkbox"
+          class="input-checkbox"
+        />Coming of Age</label
+      >
+      <label class="check"
+        ><input
+          name="prefer"
+          value="crime"
+          type="checkbox"
+          class="input-checkbox"
+        />Crime</label
+      >
+  </div>
+<div>
+  <label for="comments">Comments or Questions:</label><br>
+  <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+  </div>
+  <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+</form>
